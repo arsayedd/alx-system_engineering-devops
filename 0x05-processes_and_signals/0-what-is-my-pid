@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#print the id of the program 
+
+echo $$
+
