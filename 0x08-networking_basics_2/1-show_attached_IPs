@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# 1-show_attached_IPs script
+cmd=$(ifconfig | grep 'inet ' | awk '{print $2}')
+echo "$cmd"
