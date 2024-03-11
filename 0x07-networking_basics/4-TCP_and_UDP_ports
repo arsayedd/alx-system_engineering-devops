@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# 4-TCP_and_UDP_ports script
+netstat -lp
