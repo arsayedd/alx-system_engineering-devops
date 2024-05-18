@@ -1,0 +1,1 @@
+First script prints "Hello, World"

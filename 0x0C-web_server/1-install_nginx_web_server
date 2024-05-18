@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script installs Nginx on the web server, with Nginx configured to listen on port 80.
+# It then queries Nginx at its root (/) using a GET request to request a page.
+# The command 'curl http://35.229.54.225/' will return the string "Holberton School".
+# Similarly, 'curl -I http://35.229.54.225/' will return header information.
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+sudo service nginx start
